@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:text="Jugar"
+        android:text="@string/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -26,7 +26,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/laberinto_port" />
+        app:srcCompat="@drawable/laberinto_port"
+        android:contentDescription="@string/laberinto_port_cd" />
 
     <TextView
         android:id="@+id/title_splash"
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="serif"
-        android:text="LABERINTO"
+        android:text="@string/title"
         android:textColor="#FFC107"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"

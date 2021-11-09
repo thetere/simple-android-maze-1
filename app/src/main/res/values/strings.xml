@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Simple Maze Game</string>
     <string name="title_activity_main">Maze game</string>
+    <string name="title">MAZE GAME</string>
+    <string name="play">Play</string>
+    <string name="laberinto_port_cd">Maze image</string>
+    <string name="please_select_game">Please select game!</string>
+    <string name="or_create_a_new_game">OR create a new game</string>
+    <string name="game_name">Name</string>
+    <string name="new_game_cd">New</string>
+    <string name="up_btn">UP</string>
+    <string name="left_btn">LEFT</string>
+    <string name="right_btn">RIGHT</string>
+    <string name="down_btn">DOWN</string>
 </resources>
